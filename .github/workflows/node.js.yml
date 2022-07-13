@@ -27,3 +27,6 @@ jobs:
         cd frontend
         npm install
         npm run build
+        cd ..
+        npm start
+        sudo service nginx restart

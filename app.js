@@ -13,5 +13,6 @@ app.get('/names', (req, res) => {
 })
 
 app.listen(5000, () => {
+  console.log(path.join(__dirname, '/frontend/build'));
   console.log("Server is running on port 5000");
 })
