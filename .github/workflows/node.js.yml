@@ -30,4 +30,3 @@ jobs:
         cd ..
         pm2 start npm --name "mywebsite" -- start
         pm2 save
-        sudo service nginx restart
