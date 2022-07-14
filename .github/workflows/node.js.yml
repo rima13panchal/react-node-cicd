@@ -28,6 +28,6 @@ jobs:
         npm install
         npm run build
         cd ..
-        pm2 start npm --name "react-node-cicd" -- start
+        pm2 start npm --name "mywebsite" -- start
         pm2 save
         sudo service nginx restart
