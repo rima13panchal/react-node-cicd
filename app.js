@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/names', (req, res) => {
-  res.send("Rima B Panchal");
+  res.send("Rima Lilaben Panchal");
 })
 
 app.listen(5000, () => {
