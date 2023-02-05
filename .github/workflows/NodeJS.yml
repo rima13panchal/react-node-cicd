@@ -32,8 +32,6 @@ jobs:
       working-directory: ./backend
       run: |
         npm install
-        pm2 start npm --name "mywebsite" -- start
-        pm2 save
 
     - name: Create Frintend
       working-directory: ./frontend
