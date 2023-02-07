@@ -29,3 +29,5 @@ jobs:
         cd frontend
         npm i
         npm run build
+        cd..
+        pm2 restart app.js
